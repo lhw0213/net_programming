@@ -6,3 +6,4 @@ sock.connect(addr)
 msg = sock.recv(1024)
 print(msg.decode())
 sock.close()
+
