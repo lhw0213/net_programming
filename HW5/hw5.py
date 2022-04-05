@@ -7,7 +7,7 @@ sock1.connect(('localhost', 7777))
 sock2 = socket(AF_INET, SOCK_STREAM)
 sock2.connect(('localhost', 8888))
 
-f = open('.data.txt', 'a')
+f = open('data.txt', 'a')
 
 while True:
     msg = input('Enter the device number ')
